@@ -245,10 +245,30 @@
     color: white;
     background-color: black;
   }
-  .social-media a:hover ion-icon {
-    color: red;
+   /* .social-media .twitter a:hover ion-icon {
+    color: #00acee;
     transform: translateY(5px);
+  }  */
+
+  .ion-twitter:hover{
+    color:#00acee;
   }
+  
+  .ion-facebook:hover{
+    color: #3b5998;
+  }
+
+  .ion-youtube:hover{
+    color: #FF0000;
+  }
+  .ion-linkedin:hover{
+    color: #0e76a8;
+  }
+
+  .ion-instagram:hover{
+    color: #FFC0CB;
+  }
+
   .footer2 {
     display: flex;
     width: 100%;
@@ -263,6 +283,7 @@
   }
   .footer0:hover {
     color: rgb(243, 168, 7);
+    cursor: pointer;
   }
   .footer2 .heading {
     font-weight: 900;
