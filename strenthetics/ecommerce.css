@@ -262,6 +262,7 @@
     transition-duration: 1s;
   }
   .footer0:hover {
+    cursor: pointer;
     color: rgb(243, 168, 7);
   }
   .footer2 .heading {
@@ -276,6 +277,7 @@
     justify-content: center;
   }
   .footer2 .heading:hover {
+    cursor: pointer;
     color: rgb(243, 168, 7);
   }
   .footer2 .div:hover {
@@ -300,7 +302,27 @@
   .close {
     cursor: pointer;
   }
+
+  a.facebook:hover ion-icon{
+    color: #3b5998;
+  }
+
+  a.linkedin:hover ion-icon{
+    color: #0077b5 ;
+  }
   
+  a.youtube:hover ion-icon{
+    color:	#FF0000 ;
+  }
+
+  a.instagram:hover ion-icon{
+    color: 	#FF1493;
+  }
+
+  a.twitter:hover ion-icon{
+    color:  #00acee;
+  }
+
   @media screen and (max-width: 1250px) {
     .heading ul li {
       display: none;
@@ -402,6 +424,7 @@
       font-weight: 900;
     }
     .menu ul li a:hover {
+      cursor: pointer;
       color: rgb(240, 197, 6);
     }
     .img-slider {
